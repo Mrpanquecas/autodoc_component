@@ -12,7 +12,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
 
@@ -27,12 +26,12 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone git@github.com:Mrpanquecas/autodoc_component.git
    ```
 
 2. Jump to repo directory
    ```sh
-    cd <repo>
+    cd autodoc_component
    ```
    
 3. Install NPM packages
@@ -65,22 +64,7 @@
    ```
     At the moment extra permissions might be needed for this. Please reach Ricardo Costa for details
 
-After these steps the library should now be installable using npm i <package_name>
+After these steps the library should now be installable using npm i autodoc_component**
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-1. Create a new component/story/test/feature/fix
-
-2. Increment package version in package.json ex: (0.0.1 ==> 0.0.2)
-
-3. run the build command: 
-
-4. ```js
-   npm run build
-   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

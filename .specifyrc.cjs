@@ -121,5 +121,9 @@ module.exports = {
   // Find more about how to target a Specify repository at: https://docs.specifyapp.com/concepts/configuration#properties
   repository: "@autodoc/POC-MicroFrontEnd",
   personalAccessToken: process.env.SPECIFY_TOKEN,
-  rules: [...designTokensRules, ...fontRules, ...vectorRules],
+  rules: [
+    ...designTokensRules,
+    // no fonts and no vectors as of now
+    //...fontRules, ...vectorRules
+  ],
 };
